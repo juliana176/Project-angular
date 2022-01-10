@@ -1,0 +1,37 @@
+
+.body{
+    margin: 0px 20px;
+   
+}
+#img{
+    margin-bottom: 250px;
+    margin-left:   60px;
+   
+
+ 
+}
+div{
+    display: inline-block;
+
+}
+#div-tabla{
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+#tabla{
+margin-left: 200px;
+text-align: center;
+
+
+}
+
+#h1{
+    text-align: center;
+}
+
+.example-margin{
+ 
+    margin-left: 8px;
+
+}
