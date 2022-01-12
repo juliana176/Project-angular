@@ -1,0 +1,18 @@
+<div class="body">
+    <div class="inicio">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQItycGdolc1CyVEIiEc3PXmmBUAtt5dzzM8g&usqp=CAU" />
+      <h1 id="login">Login</h1>
+      <mat-form-field id="mat" appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput *ngFor="let item of users" placeholder="@">
+        
+      </mat-form-field>
+
+      <mat-form-field id="mat" appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput />
+      </mat-form-field>
+      <br />
+      <button id="boton" mat-raised-button color="primary">Ingresar</button>
+    </div>
+  </div>

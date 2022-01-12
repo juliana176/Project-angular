@@ -1,0 +1,26 @@
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  
+
+}
+.inicio{
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#mat{
+    width: 80%;
+}
+
+#boton{
+    height: 50px;
+}
+
+#login{
+    font-size: 35px;
+}

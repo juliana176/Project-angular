@@ -1,37 +1,28 @@
-
-.body{
-    margin: 0px 20px;
-   
-}
-#img{
-    margin-bottom: 250px;
-    margin-left:   60px;
-   
-
  
-}
-div{
-    display: inline-block;
-
-}
-#div-tabla{
-    width: 60%;
-    margin-left: 40px;
-    margin-top: 40px;
-}
-#tabla{
-margin-left: 200px;
-text-align: center;
-
-
-}
+ body{ 
+     margin-top: 1 0px;
+ }
 
 #h1{
     text-align: center;
 }
-
-.example-margin{
- 
-    margin-left: 8px;
+.div{
+    margin-top: 30px;
+}
+#tabla{
+    
+    margin-left: 300px;
+    margin-top: 40px;
 
 }
+
+#table{
+    margin-left: 200px;
+text-align: center;
+}
+th.mat-header-cell:first-of-type, td.mat-cell:first-of-type, td.mat-footer-cell:first-of-type {
+    text-align: center;
+    padding-right: 307px;
+
+}
+

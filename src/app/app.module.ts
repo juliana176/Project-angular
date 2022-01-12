@@ -14,14 +14,20 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatTableModule} from '@angular/material/table';
 import {MatCheckboxModule} from '@angular/material/checkbox';
-
+import {MatListModule} from '@angular/material/list';
+import { LoginComponent } from './components/login/login.component';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSelectModule} from '@angular/material/select';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    ListComponent
+    ListComponent,
+    LoginComponent
 
   ],
   imports: [
@@ -34,7 +40,13 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatButtonModule,
     MatToolbarModule,
     MatTableModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatListModule,
+    MatRadioModule,
+    MatSelectModule,
+    MatGridListModule,
+    MatCardModule
+
     
 
   ],
